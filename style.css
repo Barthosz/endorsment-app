@@ -1,0 +1,34 @@
+:root {
+  /* COLORS */
+  --clr-white: #fff;
+  --clr-background: #1b1924;
+  --clr-btn-background: #444059;
+  --clr-blue: #28a9f1;
+  --clr-copy: #1b1924;
+  --clr-btn-txt: #04131c;
+  /* TYPOGRAPHY */
+  --ff-primary: "Josefin Sans", sans-serif;
+  --ff-secondary: "Inter", sans-serif;
+}
+
+/* GENERALS */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: #6b7280;
+}
+
+.endorsment__block {
+  background: #1b1924;
+}
