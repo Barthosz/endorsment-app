@@ -17,16 +17,25 @@
     <div class="endorsment__block">
       <header class="endorsment__header">
         <img
+          class="header__img"
           src="/assets/freddie.png"
           alt="White silhouette of Freddie Mercury"
         />
-        <h1>We are the Champions</h1>
-        <input
+        <h1 class="header__h1">We are the Champions</h1>
+        <!-- <input
           type="text"
           id="endorsment__input"
           class="endorsment__input"
           placeholder="Write your endorsment here"
-        />
+        /> -->
+        <textarea
+          name="input"
+          id="endorsment__input"
+          class="endorsment__input"
+          placeholder="Write your endorsment here"
+          cols="30"
+          rows="5"
+        ></textarea>
         <button
           id="endorsment__publish-button"
           class="btn endorsment__publish-button"
@@ -35,12 +44,12 @@
         </button>
       </header>
       <sections class="endorsment__comments">
-        <h2>- Endorsment -</h2>
+        <h2 class="comments__h2">- Endorsment -</h2>
         <ul id="endorsment__comments-list">
-          <li>
+          <!-- <li class="li-el">
             Hi Bob! Your React Router course is so good. The students are going
             to LOVE IT. I’m so excited for the launch :) 🔥 Per
-          </li>
+          </li> -->
         </ul>
       </sections>
     </div>
