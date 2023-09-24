@@ -9,16 +9,20 @@
   /* TYPOGRAPHY */
   --ff-primary: "Josefin Sans", sans-serif;
   --ff-secondary: "Inter", sans-serif;
+
+  --fs-h1: 1.563rem;
+  --fs-h2: 1.25rem;
+  --fs-copy: 0.75rem;
+  --fs-input: 0.938rem;
+  --fs-btn: 1.375rem;
+
+  --fw-700: 700;
+  --fw-400: 400;
 }
 
 /* GENERALS */
 * {
   box-sizing: border-box;
-}
-
-img {
-  width: 90px;
-  height: 90px;
 }
 
 body {
@@ -29,6 +33,38 @@ body {
   background: #6b7280;
 }
 
+h1 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-700);
+  color: var(--clr-white);
+}
+
+h2 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-700);
+  color: var(--clr-white);
+}
+/* Endorsment Block */
+img {
+  width: 90px;
+  height: 90px;
+}
 .endorsment__block {
   background: #1b1924;
+}
+
+.endorsment__header {
+  text-align: center;
+}
+
+.endorsment__input {
+  width: 100%;
+  /* display: block; */
+}
+
+.endorsment__publish-button {
+  display: block;
+  width: 100%;
 }
